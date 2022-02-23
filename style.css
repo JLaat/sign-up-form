@@ -1,0 +1,13 @@
+#section-container {
+    display: grid;
+    width: 60vw;
+    alignment: right;
+}
+#first-column {
+    display: flex;
+    flex-direction: column;
+}
+#second-column {
+    display: flex;
+    flex-direction: column;
+}

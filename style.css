@@ -1,13 +1,71 @@
+body {
+    display: flex;
+    background: url(".idea/images/dogs.jpg") center;
+    background-size: cover;
+}
+#logo-container {
+    width: 40vw;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
 #section-container {
-    display: grid;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    flex-direction: column;
     width: 60vw;
-    alignment: right;
+    height: 100vh;
+}
+#top-section{
+    margin: 3rem;
+}
+#mid-section {
+    display: grid;
+    flex: auto;
+    grid-template-rows: 5rem 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    width: 60vw;
+    height: 40vh;
 }
 #first-column {
     display: flex;
     flex-direction: column;
+    flex: auto;
+    margin: 3rem;
+    justify-content: space-between;
 }
 #second-column {
     display: flex;
     flex-direction: column;
+    margin: 3rem;
+    flex: auto;
+    justify-content: space-between;
 }
+#bottom-section, .motivation-talk {
+    margin: 2.5rem;
+}
+#bottom-section{
+    flex-basis: 15rem;
+}
+form {
+    display: flex;
+}
+input {
+    height: 2.3rem;
+    width: 20rem;
+}
+label {
+    margin-top: 1.5rem;
+}
+#form-1, #form-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
